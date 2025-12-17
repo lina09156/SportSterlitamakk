@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvDetailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Название"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"/>
+
+        <TextView
+            android:id="@+id/tvDetailSports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Виды спорта"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Адрес"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailSchedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Время работы:"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailCoach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тренер/Персонал:"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Условия/Цена:"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Телефон:"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Описание:"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnShowOnMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Показать на карте"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#3498DB"/>
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Позвонить"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#27AE60"/>
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Поделиться"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#9B59B6"/>
+
+    </LinearLayout>
+</ScrollView>

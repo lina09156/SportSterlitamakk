@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/tvBalloonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Название места"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBalloonAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Адрес"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/tvBalloonSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#E3F2FD"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="2dp"
+        android:text="Вид спорта"
+        android:textColor="#1976D2"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/btnBalloonDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Подробнее"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+</LinearLayout>
